@@ -1,0 +1,9 @@
+@model WebApp.Models.Movie
+
+<h2> Details </h2>
+<hr />
+
+<strong>@Model.Name (@Model.Year)</strong>
+<p>@Model.Summary</p>
+
+<a asp-action="index" asp-controller="Home" class="btn btn-link">Back to list</a>
