@@ -18,6 +18,7 @@ namespace WebApp
             services.AddMvc(options =>
             {
                 options.Filters.Add(typeof(NoEdgeAttribute));
+                
             });
         }
 
